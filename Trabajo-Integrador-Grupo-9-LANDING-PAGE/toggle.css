@@ -1,0 +1,54 @@
+/*Esta es la caja del toggle o botonera*/
+ .toggle_container{
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 30px;
+  padding-left: 100Spx;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  box-shadow: inset 4px 4px 6px #740202,
+  inset -4px -4px 6px #b3c0a2;
+  background-color: white;  
+ }
+ .sun{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  }
+.moon{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  }
+
+ /*Este es el boton del Toggle* o slider*/
+.toggle_slider{
+  background-color: rgb(141, 168, 248);
+  width:  25px;
+  height: 25px;
+  top:08px; 
+  left:05px;
+  border-color: #550202;
+  cursor: pointer;
+  transition: .9s;
+  border-radius: 100%;
+  position: absolute;
+  box-shadow:   3px 3px 8px #8a2d2d,
+               -3px -3px 8px #661818;
+
+}
+/*Esto es para que la botonera aparezca a la izquierda*/
+ .toggle_flex{
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  z-index: 5;
+  right: 0px;
+  top: 0px;
+ }
